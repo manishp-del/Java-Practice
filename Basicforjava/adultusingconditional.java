@@ -15,7 +15,7 @@ public class adultusingconditional {
 
         }
         else{
-            System.out.println("you r teenager");
+            System.out.println("you r child");
         }
     }
     
