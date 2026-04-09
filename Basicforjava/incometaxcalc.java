@@ -5,18 +5,22 @@ public class incometaxcalc {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter income:");
         float income = sc.nextFloat();
+        int tax;
         if(income<500000){
-            System.out.println("0% tax");
-        
+            tax = 0;
 
 
         }
         else if(income>=500000 && income<1000000){
-            System.out.println("20% tax");
+            tax = 20;
         }
         else if(income>=1000000){
-            System.out.println("30% tax");
+            tax = 30;
         }
+        else {
+            tax = 0;
+        }
+        System.out.println("Tax to be paid is : " + tax);
             
         }
     }
