@@ -1,4 +1,4 @@
-package Basicforjava.Function;
+package Function;
 import java.util.Scanner;
 public class returnsum {
     public static void main(String[] args){
