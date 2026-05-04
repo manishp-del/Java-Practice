@@ -1,6 +1,6 @@
 package Function;
 import java.util.Scanner;
-public class primealln {
+public class primealln{
     public static boolean isPrime(int n){
         boolean isPrime = true;
         for(int i=2;i<=n-1;i++){
@@ -19,7 +19,7 @@ public class primealln {
         int n = sc.nextInt();
         System.out.println("prime numbers are :");
         for(int i=2;i<=n;i++){
-            if(isPrime){
+            if(isPrime(n)){
                 System.out.print(i+ " ");
 
             }

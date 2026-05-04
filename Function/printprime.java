@@ -19,7 +19,7 @@ public class printprime {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter n : ");
     int n = sc.nextInt();
-    boolean result = isprime(n); 
+    boolean result = primeinrange(n); 
     System.out.println("The prime no.. is : " + result);
     }
 }
