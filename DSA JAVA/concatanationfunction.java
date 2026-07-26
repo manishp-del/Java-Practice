@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*;        
 public class concatanationfunction {
     public static void printletters(String str){
         for(int i=0; i<str.length(); i++){
