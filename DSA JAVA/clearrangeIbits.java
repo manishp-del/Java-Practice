@@ -1,5 +1,5 @@
 import java.util.*;
-public class clearrangeIbits {
+public class clearrangeIbits {  
 
     
      public static int clearrangeIbit(int n, int i, int j){
