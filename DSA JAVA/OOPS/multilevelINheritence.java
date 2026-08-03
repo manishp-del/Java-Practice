@@ -1,5 +1,4 @@
-package OOPS;
-
+package OOPS; 
 public class multilevelINheritence {
     public static void main(String args[]){
         Dog dobby = new Dog();
@@ -19,7 +18,6 @@ class Animal{
 }
 class Mammals extends Animal{
     int legs;
-
 }
 class Dog extends Mammals{
     String breed;
