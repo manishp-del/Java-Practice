@@ -1,6 +1,5 @@
 package RECURSION;
 import java.util.*;
-
 public class sumofNnatural {
     public static int calcsum(int n){
         if(n==1){
@@ -16,6 +15,5 @@ public class sumofNnatural {
         int n = sc.nextInt();
         int ans = calcsum(n);
         System.out.println(ans);
-    }
-    
+    } 
 }
