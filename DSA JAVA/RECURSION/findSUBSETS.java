@@ -3,7 +3,12 @@ public class findSUBSETS {
     public static void findsubsets(String str, String ans, int i){
         //base case
         if(i==str.length()){
-            System.out.println(ans);
+            if(ans.length()==0){
+                System.out.println("null");
+            }
+            else{
+                System.out.println(ans);
+            }
             return;
         }
         //yes choice
