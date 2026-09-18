@@ -10,7 +10,7 @@ public class nROWqueens {
         for(int j=0; j<board.length; j++){
             board[row][j] = 'Q';
             nqueens(board, row+1);  //function call
-            board[row][j] = '.';//backtracking step
+            board[row][j] = '.';//backtrackin step
         }
     }
     public static void printBoard(char board[][]){
