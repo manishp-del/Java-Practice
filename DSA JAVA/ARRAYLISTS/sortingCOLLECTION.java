@@ -13,7 +13,11 @@ public class sortingCOLLECTION {
         List.add(9);
         List.add(0);
         System.out.println(List);
-        Collections.sort(List);
+        Collections.sort(List); //ascending order
+        System.out.println(List);
+
+        //descending order
+        Collections.sort(List, Collections.reverseOrder());
         System.out.println(List);
     }
     
