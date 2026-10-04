@@ -1,4 +1,3 @@
-
 package LINKEDLIST;
 
 public class linklist{
