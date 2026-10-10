@@ -13,9 +13,11 @@ public class linklist{
 }   
 public static Node head;
 public static Node tail;
+public static int size;
 
 //methods
 public void addfirst(int data){
+    size++;
     //step1 = create new node
     Node newNode = new Node(data);
     if(head == null){
@@ -30,6 +32,7 @@ public void addfirst(int data){
     head = newNode;
 }
 public static void addlast(int data){
+    size++;
     Node newNode = new Node(data);
     if(head == null){
         head = tail = newNode;
