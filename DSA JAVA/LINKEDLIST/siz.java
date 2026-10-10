@@ -85,6 +85,7 @@ public static void main(String args[]){
     ll.addfirst(4);
     ll.add(1, 9);
     ll.print();
+    System.out.println(ll.size);
 
 
 }
