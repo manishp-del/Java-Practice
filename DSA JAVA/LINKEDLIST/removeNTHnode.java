@@ -1,5 +1,4 @@
- package LINKEDLIST;
-
+package LINKEDLIST;
 import java.util.Scanner;
 
 public class removeNTHnode {
